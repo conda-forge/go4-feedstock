@@ -24,8 +24,6 @@ python:
 - 3.12.* *_cpython
 qt:
 - '5.15'
-root_base:
-- 6.38.0
 target_platform:
 - linux-64
 zip_keys:

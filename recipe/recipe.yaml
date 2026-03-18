@@ -12,7 +12,7 @@ source:
     - fix-gxx.patch
 
 build:
-  number: 0
+  number: 1
   skip:
     - win
   script:
@@ -28,7 +28,7 @@ requirements:
       then:
       - libgl-devel
   host:
-    - root_base
+    - root_base 6.36.*
     - qt
     - python
   run:
@@ -51,6 +51,9 @@ tests:
       run:
       - make
       - cmake
+      - if: linux
+        then:
+        - ${{ compiler('cxx') }}
 about:
   homepage: https://www.gsi.de/en/work/research/experiment_electronics/data_processing/data_analysis/the_go4_home_page
   summary: |
