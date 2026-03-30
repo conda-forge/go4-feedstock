@@ -12,7 +12,7 @@ source:
     - fix-gxx.patch
 
 build:
-  number: 2
+  number: 3
   skip:
     - win
   script:
@@ -28,7 +28,7 @@ requirements:
       then:
         - libgl-devel
   host:
-    - root_base 6.36.*
+    - root_base 6.34.*
     - qt
     - python
   run:

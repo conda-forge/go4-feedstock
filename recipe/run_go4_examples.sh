@@ -7,6 +7,7 @@ shopt -s extglob
 pushd Go4ExampleSimple
 make clean
 make -j"${CPU_COUNT}"
+make # root version 6.36 failed to run analysis after 2nd make
 go4analysis -random -number 10000
 popd
 
