@@ -1,6 +1,5 @@
 context:
   version: '6.4.1'
-  python_max: '3.13'
 
 package:
   name: go4
