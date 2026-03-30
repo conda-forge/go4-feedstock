@@ -1,5 +1,6 @@
 context:
   version: '6.4.1'
+  python_max: '3.13'
 
 package:
   name: go4
@@ -30,9 +31,9 @@ requirements:
   host:
     - root_base 6.34.*
     - qt
-    - python <3.14
+    - python
   run:
-    - python <3.14
+    - python
 
 tests:
   - package_contents:
