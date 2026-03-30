@@ -30,9 +30,9 @@ requirements:
   host:
     - root_base 6.34.*
     - qt
-    - python
+    - python <3.14
   run:
-    - python
+    - python <3.14
 
 tests:
   - package_contents:
