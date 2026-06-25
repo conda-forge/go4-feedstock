@@ -13,7 +13,6 @@ build:
   number: 0
   skip:
     - win
-    - match(root_base, ">=6.38")
   script:
     - $RECIPE_DIR/build.sh
 requirements:
