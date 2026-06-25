@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/gsi-ee/go4/archive/refs/tags/Release-${{ version }}.tar.gz
   sha256: 8ffae21911edb621a95c7a3c4f45320b75cae752f742890352d754bbde3bb03d
+  patches:
+    - fix_floor.patch
 
 build:
   number: 1
