@@ -65,10 +65,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpythonroot_base6.40.0</td>
+              <td>osx_64_python3.10.____cpythonroot_base6.40.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonroot_base6.40.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonroot_base6.40.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -86,10 +86,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.11.____cpythonroot_base6.40.0</td>
+              <td>osx_64_python3.11.____cpythonroot_base6.40.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonroot_base6.40.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonroot_base6.40.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -107,10 +107,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.12.____cpythonroot_base6.40.0</td>
+              <td>osx_64_python3.12.____cpythonroot_base6.40.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythonroot_base6.40.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpythonroot_base6.40.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -128,10 +128,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.13.____cp313root_base6.40.0</td>
+              <td>osx_64_python3.13.____cp313root_base6.40.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313root_base6.40.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313root_base6.40.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -149,10 +149,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.14.____cp314root_base6.40.0</td>
+              <td>osx_64_python3.14.____cp314root_base6.40.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314root_base6.40.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314root_base6.40.2" alt="variant">
                 </a>
               </td>
             </tr>
