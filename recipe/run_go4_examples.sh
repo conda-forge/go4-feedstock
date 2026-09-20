@@ -1,7 +1,10 @@
 #!/bin/bash
 set -eumx -o pipefail
 shopt -s failglob
-shopt -s extglob
+
+# rattler-build inlines this file into a subshell in the script it generates, so
+# bash parses every line below before any `shopt` here could take effect: no
+# extglob patterns such as @(so|dylib).
 
 # Test running an example analysis with Make build
 pushd Go4ExampleSimple
@@ -17,6 +20,6 @@ mkdir build
 # shellcheck disable=SC2086
 cmake -S ./ -B ./build/ $CMAKE_ARGS
 cmake --build build -j"${CPU_COUNT}"
-go4analysis -lib ./build/libGo4UserAnalysis.@(so|dylib) -user tafoil50.scf
-go4analysis -lib ./build/libGo4UserAnalysis.@(so|dylib) -user befoil50.scf
+go4analysis -lib "./build/libGo4UserAnalysis${SHLIB_EXT}" -user tafoil50.scf
+go4analysis -lib "./build/libGo4UserAnalysis${SHLIB_EXT}" -user befoil50.scf
 popd
